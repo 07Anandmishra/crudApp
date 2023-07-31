@@ -1,13 +1,133 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* login form css */
+
+
+.bg_container {
+  background-color: honeydew!important;
+  padding: 50px 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.login_row {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+@media screen and (max-width:767px){
+  .login_row{
+    margin-left:  5px!important;
+    margin-right:  5px!important;
+    padding-bottom: 20PX;
+  }
+}
+.logoin_img img{
+  width: 100%;
+  padding: 20px;
+}
+
+@media (max-width:767px){
+  .logoin_img img{
+    width: 70%;
+   display: block;
+   margin: auto;
+  }
+}
+
+
+/* userlist css */
+
+
+
+.bg{
+  background-color: rgb(241, 240, 240);
+  height: 100vh;
+}
+.form-control:focus{
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #0a0a0a!important;
+  outline: 0;
+  box-shadow: none!important;
+}
+
+
+
+.emp_text{
+  padding-top: 30px ;
+  text-align: center;
+  font-family: 'Freehand', cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+.thead{
+  background-color: gray!important;
+}
+
+.table{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+@media (max-width:767px){
+  .table{
+    overflow-x: auto;
+  }
+}
+
+tr{
+  text-align: center!important;
+}
+.icons{
+  cursor: pointer;
+}
+.delete{
+  color: rgb(150, 9, 9);
+}
+
+@media screen and (max-width:767px){
+  .adddbutton{
+    margin-bottom: 20px!important;
+  }
+}
+
+/* 
+registerform */
+
+
+
+
+.form-control{
+  border: 1px solid green!important;
+}
+
+.registerform{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px
+}
+.register_imacolumn{
+  padding: 20px;
+}
+.register_imacolumn img{
+  height: 300px;;
+  width: 300px;
+}
+@media screen and (max-width:767px) {
+  .register_imacolumn img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+}
+
+
+.footer_text p{
+  color: #fff!important;
+}
+.footer_text a{
+  color: aliceblue!important;
+}
+.text-small {
+  font-size: 0.9rem;
+}
+
+
+footer {
+  background: #212529;
 }
